@@ -1,0 +1,40 @@
+a. $ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 746 bytes | 74.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/sriharshini11/assignment2.git
+   f4975e5..50482dc  master -> master
+
+b. 
+$ git rev-list --all --count
+9
+
+c.
+Date:   Wed Sep 25 18:13:30 2019 -0400
+$ git log --follow .gitignore
+
+d. 
+->Support quality assurance/code quality/integration/testing processes
+->Branchesserveasanabstractionfortheedit/stage/commitprocess.
+
+e.
+git log tells you about the history of the file and commit s 
+where as git status tells you where your head is or where you are currently in.
+
+f.$ git log --follow Vehicle.h
+
+g. $ git log --grep="file"
+
+h.
+ (I). Inheritance is a mechanism in which one class acquires the property of another class.
+(II). Polymorphism means to process objects differently based on their data type. Implementation to be used is decided at runtime depending upon the situation (i.e., data type of the object)
+(III).Encapsulation is a process of wrapping code and data together into a single unit,Binding the data with the code that manipulates it. It keeps the data and the code safe from external interference.
+
+i. In dictator and lieutanants the conflicts are resolved either lieutanant repositories or dictator repository, where as in the integration integration workflow the integration manager is responsible for resolving the eising conflicts.Also in dictator workflow, developers only push to lieutanant and they are further pushed to central repo by dictator repo. But in integration workflow developers can push to their public repo.
+
+j. A team of 100 developers will benefit with dictator and lieutenant workflow because the conflicts rising are handled by the dictator repo during the merge, but in the centralized workflow the developers have to figure out themselves before they push it to the shared repo.
+
