@@ -38,3 +38,7 @@ i. In dictator and lieutanants the conflicts are resolved either lieutanant repo
 
 j. A team of 100 developers will benefit with dictator and lieutenant workflow because the conflicts rising are handled by the dictator repo during the merge, but in the centralized workflow the developers have to figure out themselves before they push it to the shared repo.
 
+-------------------------------------------------
+5.
+The Prototype is using both the concepts of polymorphism and encapsulation. In the code it used polymorphism as all the inherited classes has their own version of to_String though it is intially provided in Vehicle class and all classes inherited Vehicle in one or the other way.This shows that to_string is seen in different forms in all the classes.
+The prototype also used concepts of encapsulation as the access for the private members is not allowed by the other classes and all classes inherited vehicle publicly and functions like getters and setters are defined to get access of the required data.
